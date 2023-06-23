@@ -18,7 +18,7 @@ def drawTree(start_pos,end_pos,angle,mid_diff):
     start_pos = end_pos
     end_pos1 = (x1,y1)
     end_pos2 = (x2,y2)
-    angle -= (mid_diff//2)
+    angle -= (mid_diff/2)
 
     drawTree(start_pos,end_pos1,angle,mid_diff)
     drawTree(start_pos,end_pos2,angle+mid_diff,mid_diff)
